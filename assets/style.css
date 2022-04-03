@@ -162,12 +162,54 @@ section
     font-size: 30px;
 }
 
-/* the link you use to check out the code */
+/* the link you use to check out the code
+link should be able to take you to the github project if it were real */
 .project-one a 
 {
     
     padding: 0 120px 0 0;
     font-size: 100px;
+    text-align: center;
+    opacity: 0;
+}
+
+/* small banner projects */
+
+/* passgen img */
+.passgen-img
+{
+    background-image: url(../assets/images/nihon-graphy-nCvi-gS5r88-unsplash.jpg);
+}
+
+/*portfolio website img */
+.portfolio-img
+{
+    background-image: url(../assets/images/denis-degioanni-9wH624ALFQA-unsplash.jpg);
+}
+
+/* This code changes the background img to fit inside the 
+box, it also gives a title inside the box to show users what 
+the project is about, images are added to show what the project 
+is about  */
+.small-banner-pro
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    background-size:100%;
+    position: relative;
+    background-position: center;
+    margin-left: 300px;
+    border: 3px solid rgb(0, 255, 255);
+    display: inline-flex;
+    
+}
+/* This changes the link so that when users click anywhere inside the box
+they are then transported inside the link */
+.small-banner-pro a
+{
+    padding: 0 100px 0 0;
+    font-size: 70px;
     text-align: center;
     opacity: 0;
 }
