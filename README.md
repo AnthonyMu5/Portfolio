@@ -45,8 +45,8 @@ There are a lot of I didn't add, just cause I didn't have enough time, but I'm g
 as time goes on.
 
 here's a list of missing requiremnts or errors:
--Different screen sizes are not arranged
--images in the project section overlap each other when you hover over them
--email link isn't working properly
+Different screen sizes are not arranged
+, images in the project section overlap each other when you hover over them
+, email link isn't working properly.
 
 I'm sure there are more out there but those are the main concerns I forgot to add or fix. 
