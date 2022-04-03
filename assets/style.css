@@ -144,7 +144,7 @@ section
     background-size: cover;
     position: relative;
     background-position: center;
-    margin-left: 300px;
+    margin-left: 340px;
     border: 3px solid rgb(0, 255, 255);
     display: inline-flex;
     
@@ -179,12 +179,28 @@ link should be able to take you to the github project if it were real */
 .passgen-img
 {
     background-image: url(../assets/images/nihon-graphy-nCvi-gS5r88-unsplash.jpg);
+    margin-left: 250px;
 }
 
 /*portfolio website img */
 .portfolio-img
 {
     background-image: url(../assets/images/denis-degioanni-9wH624ALFQA-unsplash.jpg);
+    margin-left: auto;
+}
+
+/* Snake game Img */
+.snake-img
+{
+    background-image: url(../assets/images/fidias-cervantes-QwS2TbW0900-unsplash.jpg);
+    margin-left: 250px;
+}
+
+/* AI image */
+.robot-img
+{
+    background-image: url(../assets/images/james-a-molnar-AHq2twkynao-unsplash.jpg);
+    margin-left: auto;
 }
 
 /* This code changes the background img to fit inside the 
@@ -194,12 +210,11 @@ is about  */
 .small-banner-pro
 {
     margin-top: 10px;
-    width: 400px;
+    width: 600px;
     height: 200px;
     background-size:100%;
     position: relative;
     background-position: center;
-    margin-left: 300px;
     border: 3px solid rgb(0, 255, 255);
     display: inline-flex;
     
@@ -208,7 +223,7 @@ is about  */
 they are then transported inside the link */
 .small-banner-pro a
 {
-    padding: 0 100px 0 0;
+    padding: 0 100px 0 150px;
     font-size: 70px;
     text-align: center;
     opacity: 0;
