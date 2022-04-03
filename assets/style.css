@@ -57,7 +57,7 @@ footer
 {
 
     width: 100%;
-    padding: 50px 35px;
+    padding: 70px 35px;
 }
 
 footer h2
@@ -116,13 +116,15 @@ section
 .info
 {
     display: inline-flex;
+    margin-left: 170px;
 }
 .section-title
 {
     font-size: 35px;
     float:left;
     border-right: 3px solid;
-    padding: 50px 25px 50px 50px;
+    padding: 50px 25px 50px 0px;
+    
 }
 
 .myself-info
@@ -201,6 +203,38 @@ link should be able to take you to the github project if it were real */
 {
     background-image: url(../assets/images/james-a-molnar-AHq2twkynao-unsplash.jpg);
     margin-left: auto;
+    transform: all 1s;
+    background-repeat: no-repeat;
+}
+
+/* hover effect when cursor is on top
+of the images on projects */
+
+.robot-img:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.snake-img:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.portfolio-img:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.passgen-img:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project-one:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* This code changes the background img to fit inside the 
@@ -227,4 +261,50 @@ they are then transported inside the link */
     font-size: 70px;
     text-align: center;
     opacity: 0;
+}
+
+/* This code is trying to fix the layout */
+.info, .projects, .my-info
+{
+    padding-left: 35px;
+    padding-right: 120px;
+    margin-right: 90px;
+}
+
+.projects
+{
+    margin-left: 135px;
+}
+
+
+/* The last section: Contact info
+added links, and tried to make it appealing */
+.my-info
+{
+    margin-left: 80px;
+}
+
+.contact-list a 
+{
+    text-decoration: none;
+    color:rgb(0, 255, 255);
+}
+.contact-list
+{
+    margin: 20px 0;
+    padding: 25px 0;
+    text-align: center;
+
+    
+}
+.contact-list ul li
+{
+    display: inline-block;
+}
+
+.contact-list ul li a
+{
+    margin: 0 45px;
+    font-weight: lighter;
+    font-size: 30px;
 }
