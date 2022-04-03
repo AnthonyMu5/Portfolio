@@ -45,11 +45,19 @@ header nav ul li
     display: inline;
 }
 
+header nav ul li a
+{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
 /* Footer */
 footer
 {
+
     width: 100%;
-    padding: 40px 35px;
+    padding: 50px 35px;
 }
 
 footer h2
@@ -62,13 +70,16 @@ footer h2
 
 footer div
 {
-    float: right;
+    
+    font-weight: lighter;
+    font-size: 22px;
     line-height: 1.5;
-    text-align: right;
+    text-align: center;
 }
 
 footer a
 {
+    margin: 0 40px;
     color:rgb(0, 255, 255);
 }
 
@@ -100,6 +111,8 @@ section
 }
 
 /* section titles */
+
+/* About Me Section */
 .info
 {
     display: inline-flex;
@@ -118,4 +131,43 @@ section
     padding-top: 50px;
     margin: 0 250px;
     float:left;
+}
+
+/* Projects section */
+
+/* has the background image */
+.project-one
+{
+    background-image: url(../assets/images/sumudu-mohottige-gneHEtwJl4o-unsplash.jpg);
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    margin-left: 300px;
+    border: 3px solid rgb(0, 255, 255);
+    display: inline-flex;
+    
+}
+
+/* the title of the project */
+.project-title
+{
+    border: 3px solid rgb(0, 255, 255);
+    padding: 10px 10px;
+    color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+/* the link you use to check out the code */
+.project-one a 
+{
+    
+    padding: 0 120px 0 0;
+    font-size: 100px;
+    text-align: center;
+    opacity: 0;
 }
